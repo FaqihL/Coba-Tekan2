@@ -1,0 +1,26 @@
+button {
+    font-family: heavitas;
+padding: lem 2em;
+font-size: 1.5em;
+border-radius: 10px;
+background-color: skyblue;
+  font-family: helvetica;
+  padding: 1.5em 3em;      /* bikin lebih besar */
+  font-size: 2em;         /* perbesar tulisan */
+  border-radius: 15px;
+  background-color: skyblue;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;  /* tengah secara horizontal */
+  align-items: center;      /* tengah secara vertikal */
+  height: 100vh;            /* tinggi penuh layar */
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
